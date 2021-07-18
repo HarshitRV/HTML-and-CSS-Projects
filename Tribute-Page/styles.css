@@ -1,0 +1,46 @@
+body {
+    font-family: 'Source Code Pro', sans-serif;
+    text-align: center;
+}
+
+header {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-weight: 800;
+}
+
+main {
+    background: linear-gradient(to bottom , rgb(248, 248, 83) , rgb(30,144,255));
+    border-radius: 0.5%;
+}
+
+.img {
+    background: linear-gradient(to bottom , rgb(143, 197, 204) , rgba(30,144,255,0.3));;
+    padding: 1rem;
+    margin: 20px;
+    border-radius: 0.5%;
+}
+
+.dhoni-image {
+    border-radius: 0.8%;
+    max-width: 100%;
+    height: auto;
+}
+
+.timeline {
+    padding: 1rem;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.remarks {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}

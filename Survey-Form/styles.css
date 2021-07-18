@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+@media (max-width: 280px) {
+    
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background:linear-gradient(-45deg , rgb(1, 66, 1) ,rgb(1,35,1));
+    color: rgb(6, 167, 6);
+}
+
+#title {
+    font-size: 2rem;
+    position: relative;
+}
+
+#title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 55px;
+    background:linear-gradient(
+        to right,
+        rgb(5, 92, 5),
+        rgb(106, 212, 106)
+    );
+}
+
+.container {
+    background:rgba(13, 13, 14, 0.4);
+    max-width: 700px;
+    padding: 5px;
+    border-radius: 0.5rem;
+    position: relative;
+    margin: 0 auto;
+}
+
+.form {
+    background: rgb(8, 7, 7);
+    padding: 45px;
+}
+
+.form-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: large;
+    margin: 5px 0;
+    font-size: 1.5rem;
+}
+
+.textarea, 
+.input-text {
+    width: 100%;
+}
+
+.button{
+    color: rgb(0, 0, 0);
+    padding: 15px ;
+    margin: 15px 0 0 0;
+    border-radius: 0.4rem;
+    font-weight: 800;
+    background: linear-gradient(to left ,rgb(7, 65, 7) , lime);
+    border: none;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.input-text,
+.drop-item {
+    padding: 0.7rem;
+    border-radius: 0.2rem;
+    border: none;
+    margin: 4px 0;
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.form-control:focus {
+    border-color: #1fd419;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(2, 88, 2)
+}
+
+
+
