@@ -25,27 +25,27 @@
         />
         <nav id="nav-bar" class="navbar">
           <ul>
-            <li class="nav-link"><a href="#">Feautures</a></li>
-            <li class="nav-link"><a href="#">How It Works</a></li>
-            <li class="nav-link"><a href="#">Pricing</a></li>
+            <li class="nav-link" href="#Feautures"><a class="nav-link" href="#Feautures">Feautures</a></li>
+            <li class="nav-link" href="#Feautures"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+            <li class="nav-link" href="#Feautures"><a class="nav-link" href="#Pricing">Pricing</a></li>
           </ul>
         </nav>
-        <a href="#"><button class="button">Contact</button></a>
       </header>
       <section class="usp">
         <h1>The best in the market</h1>
         <form action=" https://www.freecodecamp.com/email-submit" id="form">
           <input
+            id="email"
+            name="email"
             type="email"
             class="form-item"
             placeholder="Enter your email"
+            required
           />
-          <button type="submit" class="form-item" id="submit">
-            GET STARTED
-          </button>
+          <input type="submit" id="submit" class="button" value="Get Started">
         </form>
       </section>
-      <section class="features">
+      <section id="Feautures" class="features">
         <div class="feature-container">
           <div class="feature-item">
             <i class="fa fa-3x fa-fire fa-icon"></i>
@@ -73,7 +73,7 @@
           </div>
         </div>
       </section>
-      <section class="pricing">
+      <section id="Pricing" class="pricing">
         <div class="container">
           
             <div class="card" id="card-item">
@@ -116,6 +116,7 @@
       <section id="how-it-works">
         <iframe
           id="video"
+          width="515"
           height="315"
           src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
           frameborder="0"
